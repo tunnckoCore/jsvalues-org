@@ -1,0 +1,27 @@
+{
+  "name": "values",
+  "version": "0.0.0",
+  "description": "just for CI and PRs for `*-value` stack",
+  "repository": "tunnckoCore/values",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "export-files": "^2.1.0",
+    "has-own-deep": "^0.1.4",
+    "is-extendable": "^0.1.1",
+    "lazy-cache": "^0.2.2",
+    "mixin-deep": "^1.1.1",
+    "noncharacters": "^1.1.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": []
+}
