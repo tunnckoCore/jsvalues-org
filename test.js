@@ -11,4 +11,5 @@
 
 require('./test/set')
 require('./test/put')
+require('./test/union')
 require('./test/upsert')
