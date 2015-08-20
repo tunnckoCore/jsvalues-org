@@ -10,7 +10,10 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
+    "arr-union": "^3.0.0",
     "export-files": "^2.1.0",
+    "extend-shallow": "^2.0.1",
+    "get-value": "^1.1.5",
     "has-own-deep": "^0.1.4",
     "is-extendable": "^0.1.1",
     "lazy-cache": "^0.2.2",

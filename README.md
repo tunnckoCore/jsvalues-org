@@ -21,7 +21,9 @@ var lib = require('tunnckoCore/values')
 
 lib.set(obj, key, val)
 lib.put(obj, key, val)
+lib.union(obj, key, val)
 lib.upsert(obj, key, val)
+lib.assign(obj, key, val)
 ```
 
 
