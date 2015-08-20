@@ -1,14 +1,15 @@
-# [values][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
+# wip values
 
 > just for CI and PRs for `*-value` stack
 
-[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
+[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url]
 
 
 ## Install
 ```
-npm i values --save
+npm i tunnckoCore/values
 npm test
+istanbul cover test.js
 ```
 
 
@@ -16,7 +17,11 @@ npm test
 > For more use-cases see the [tests](./test.js)
 
 ```js
-var values = require('values')
+var lib = require('tunnckoCore/values')
+
+lib.set(obj, key, val)
+lib.put(obj, key, val)
+lib.upsert(obj, key, val)
 ```
 
 
